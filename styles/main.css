@@ -1,0 +1,158 @@
+body {
+    width: 100%;
+    letter-spacing: .08em;
+    background-color: #222;
+    font-family: 'Montserrat',sans-serif;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.itemleft {
+    display: flex;
+    justify-content: right;
+}
+
+.margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.color-menu {
+    color: white;
+}
+
+.color-menu:hover {
+    color: #007bff;
+}
+
+.container {
+    margin-top: 15px;
+    columns: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: rgb(233, 232, 232);
+    background-image: url(/imagens/rocket-solid.png);
+    box-shadow: 10px 10px 5px rgba(5, 5, 5, 0.2);
+}
+
+.cardigsob {
+    width: 820px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: rgb(233, 232, 232);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    background-image: url(imagens/rocket-solid.png);
+}
+
+.cardigposition {
+    position: relative;
+
+}
+
+.areaimg {
+    width: 100%;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.cardimg {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 190px;
+    border-radius: 200px;
+    margin: auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-subtitle {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card-text {
+    font-family: 'Roboto',sans-serif;
+    margin-top: 6px;
+    margin-left: 0px;
+    margin-right: 3px;
+    margin-bottom: 4px;
+    font-size: 13.9px;
+    text-align: initial;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.iconimg {
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitle-about {
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.hr3 {
+    border: 0;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+.ul-left {
+    margin-left: 20px;
+}
+
+.h5dados {
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: rgb(133, 133, 133);
+}
+
+.gamacolor {
+    color: rgb(2, 170, 2);
+}
+
+.dados {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.container-footer {
+    text-align: center;
+    color: white;
+}
+
+
