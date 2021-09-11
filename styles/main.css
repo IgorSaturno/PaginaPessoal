@@ -147,9 +147,9 @@ a:hover {
     color: rgb(133, 133, 133);
 }
 
-.gamacolor {
+.rocketseatcolor {
     font-weight: lighter;
-    color: rgb(2, 170, 2);
+    color: #9466FF;
 }
 
 .dados {
@@ -167,6 +167,4 @@ a:hover {
     padding: 5px;
     display: flexbox;
     border-radius: 15px;
-
 }
-
